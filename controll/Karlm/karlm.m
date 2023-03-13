@@ -67,5 +67,5 @@ Xminus2=F2*Xplus2(:,i-1);
 end 
 
 
-plot(t,x,'r',t,y,'g',t,Xplus1(1,:),'k',t, Xplus2(1,:), 'm','LineWidth',2); 
-
+% plot(t,x,'r',t,y,'g',t,Xplus1(1,:),'k',t, Xplus2(1,:), 'm','LineWidth',2); 
+plot(t,x,'r',t,y,'g',t,Xplus1(1,:),'k'); 
